@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/Reclycer_issue"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        />
+
+    <TextView
+        android:id="@+id/noissueTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/style_border"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:fontFamily="sans-serif-medium"
+        android:text="no_issue_txt"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

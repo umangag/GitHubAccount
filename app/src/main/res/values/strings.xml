@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GithubAccount</string>
+    <string name="tab">issues</string>
+</resources>
